@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+
+<body>
+    <h1>Fill the application</h1>
+    <form action="backend.pnp">
+        <label for="fname"><strong>enter the first name</strong></label>
+        <input type="text" name="fname" id="fname" placeholder="first name">
+        <br><br>
+        <label for="lname"><strong>enter the last name</strong> </label>
+        <input type="text" name="lname" id="lname" placeholder="last name">
+        <br><br>
+        <label for="phone"><strong>enter phone number</strong></label>
+        <input type="tel" name="phone number" id="phone" placeholder="number" pattern="[0-9]{10}">
+        <br><br>
+        <label><strong>enter date of birth</strong> &nbsp;
+            <input type="date" name="bod" id="date of birth">
+            <input type="time" name="bod" id="date of birth">
+            <input type="datetime-local" name="bod" id="date of birth">
+        </label><br>
+        <label for="mail"><strong>enter your mail id </strong></label>
+        <input type="mail" name="mail id" id="mail" placeholder="email">
+        <br><br>
+        <label for="password"> <strong>enter your password </strong> </label>
+        <input type="password" name="password" id="password" placeholder="enter your password" required>
+        <h3>
+            Other questions
+        </h3>
+
+        <h3>Choose a drink</h3>
+
+        <label><input type="radio" name="drink" id="tea">tea</label>
+        <br>
+        <input type="radio" name="drink" id="coffee">
+        <label for="coffee"> coffee</label>
+        <br>
+        <label><input type="radio" name="drink" id="milk">milk</label>
+        <br>
+        <h4>
+            What ice cream do u like?
+        </h4>
+        <label><input type="checkbox" name="ice cream" id="vennila" required>vennila</label>
+        <br>
+        <lable><input type="checkbox" name="ice cream" id="pista"> pista</lable>
+        <br>
+        <label><input type="checkbox" name="ice cream" id="mango"required>mango</label>
+        <br>
+        <label><input type="checkbox" name="ice cream" id="blueberry">blueberry</label>
+        <h3> Select the biriyani you like</h3>
+
+        <lable><strong> Choose the biriyani</strong> </lable>
+        <select name="biriyani" id="biriyani" size="1">
+        <option value="mutton biriyani" >mutton biriyani</option>
+        <option value="chiken biriyani">chiken biriyani2</option>
+        <option value="fish biriyani"> fish biriyani3</option>
+        </select>
+        <h3>Give your feedback</h3>
+        <textarea name="text" id="leave your commant" cols="100" rows="10" placeholder="leave the commant">Test</textarea>
+        <br>
+        <input type="submit" value="submit your form"> <input type="reset" value="reset your form">
+    </form>
+    <h1>Tables</h1>
+    <a href="/table.html">click to see tables</a>
+</body>
+
+</html>
